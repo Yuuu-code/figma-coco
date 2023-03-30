@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tofree Consulting フリーランスの活用をコンサルする東フリコンサル</title>
+   <!-- google font -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+   <!-- jquery -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <!-- original -->
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="./js/style.min.js"></script>
+</head>
+<body>
+  <header class="p-header" id="js-header">
+    <div class="p-header__inner l-inner">
+      <a href="index.html" class="p-header__logo c-logo">
+        <img class="p-header__logo-img c-logo__img" src="./img/Logo.jpg" alt="ロゴ">
+        <p class="p-header__logo-text c-logo__text">Tofree<br>Consulting</p>
+      </a><!-- /.p-header__logo -->
+      <div class="p-hamburger" id="js-hamburger">
+        <span class="p-hamburger__icon"></span>
+        <span class="p-hamburger__icon"></span>
+        <span class="p-hamburger__icon"></span>
+      </div>
+      <nav class="p-header__nav">
+        <ul class="p-header__lists">
+          <li class="p-header__list">
+            <a href="about.html" class="p-header__link">About us</a>
+          </li>
+          <li class="p-header__list">
+            <a href="company.html" class="p-header__link">Company</a>
+          </li>
+          <li class="p-header__list">
+            <a href="news.html" class="p-header__link">News</a>
+          </li>
+          <li class="p-header__list">
+            <a href="contact.html" class="p-header__btn c-btn u-hidden-sp">お問い合わせ</a>
+          </li>
+          <li class="p-header__list">
+            <a href="contact.html" class="p-header__link u-hidden-pc u-hidden-tab">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div> <!-- /.p-header_inner -->
+  </header>
+
+  <div class="p-other-hero p-other-hero--contact">
+    <div class="c-section-head--white c-section-head p-other-hero__head">
+      <h2 class="c-section-head__title">Contact</h2>
+      <p class="c-section-head__sub">お問い合わせ</p>
+    </div><!-- /.c-section-head -->
+  </div><!-- /.p-other-hero -->
+
+  <div class="l-other-main">
+    <div class="l-inner">
+      <div class="p-contact-content">
+        <p class="p-contact-content__text">下記フォームに必要事項を入力の上、<br class="u-hidden-pc u-hidden-tab">送信してください。<br>
+          「<span class="u-is-red">※</span>」は入力必須項目となっております。
+        </p>
+        <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdfgQLFQuwTVjhnY1Y_o8f05ZMuCVHfO-pQt7sS7MVP9Jl49A/formResponse" class="p-contact-form" id="js-form">
+          <dl class="p-contact-form__row">
+            <dt class="p-contact-form__label">
+              <label for="">お名前<span class="u-is-red">※</span></label>
+            </dt><!-- /.p-contact-form__label -->
+            <dd class="p-contact-form__input">
+              <input type="text" name="entry.847638062" placeholder="山田　太郎" required >
+            </dd>
+            <!-- /.p-contact-form__input -->
+          </dl><!-- /.p-contact-form__row -->
+          <dl class="p-contact-form__row">
+            <dt class="p-contact-form__label">
+              <label for="">フリガナ</label>
+            </dt><!-- /.p-contact-form__label -->
+            <dd class="p-contact-form__input">
+              <input type="text" name="entry.923122093" placeholder="ヤマダ　タロウ">
+            </dd>
+            <!-- /.p-contact-form__input -->
+          </dl><!-- /.p-contact-form__row -->
+          <dl class="p-contact-form__row">
+            <dt class="p-contact-form__label">
+              <label for="">メールアドレス<span class="u-is-red">※</span></label>
+            </dt><!-- /.p-contact-form__label -->
+            <dd class="p-contact-form__input">
+              <input type="email" name="emailAddress" placeholder="tofreeconsulting@***.jp" required>
+            </dd>
+            <!-- /.p-contact-form__input -->
+          </dl><!-- /.p-contact-form__row -->
+          <dl class="p-contact-form__row">
+            <dt class="p-contact-form__label">
+              <label for="">電話番号<span class="u-is-red">※</span></label>
+            </dt><!-- /.p-contact-form__label -->
+            <dd class="p-contact-form__input">
+              <input type="text" name="entry.1795269546" placeholder="090-1234-5678" required>
+            </dd>
+            <!-- /.p-contact-form__input -->
+          </dl><!-- /.p-contact-form__row -->
+          <dl class="p-contact-form__row">
+            <dt class="p-contact-form__label">
+              <label for="">企業名</label>
+            </dt><!-- /.p-contact-form__label -->
+            <dd class="p-contact-form__input">
+              <input type="text" name="entry.639589123" placeholder="株式会社　〇〇">
+            </dd>
+            <!-- /.p-contact-form__input -->
+          </dl><!-- /.p-contact-form__row -->
+          <dl class="p-contact-form__row">
+            <dt class="p-contact-form__label">
+              <label for="">お問い合わせ内容<span class="u-is-red">※</span></label>
+            </dt><!-- /.p-contact-form__label -->
+            <dd class="p-contact-form__input">
+              <textarea name="entry.933922796" required></textarea>
+            </dd>
+            <!-- /.p-contact-form__input -->
+          </dl><!-- /.p-contact-form__row -->
+          <div class="c-btn__wrap--center">
+            <!-- disabledをつけてボタンを押せなくしておく -->
+            <button type="submit" id="js-submit" class="p-contact-form__btn c-btn">送信する</button>
+          </div>
+          <!-- /.contact-form__btn-wrap -->
+        </form><!-- /.p-contact-form -->
+        <div id="js-success" class="p-contact-massage">
+          <p class="p-contact-massage__title">お問い合わせが完了しました。</p>
+          <p class="p-contact-massage__text">お問い合わせありがとうございます。<br>
+            確認のためお客様に自動送信メールをお送りしております。</p>
+          <a href="index.html" class="p-contact-massage__btn c-btn">TOPに戻る</a>
+        </div><!-- /.p-contact-message -->
+      </div><!-- /.p-contact -->
+    </div><!-- /.l-inner -->
+  </div><!-- /.l-other-main -->
+
+  <footer class="p-footer">
+    <div class="p-footer__inner l-inner">
+      <div class="p-footer__logo c-logo">
+        <img src="./img/Logo.jpg" alt="" class="p-footer__logo-img">
+        <p class="p-footer__logo-text c-logo__text">Tofree<br>Consulting</p>
+      </div><!-- /.p-footer__logo -->
+      <div class="p-footer__separate"></div>
+      <nav class="p-footer__nav">
+        <ul class="p-footer__nav-lists">
+          <li class="p-footer__nav-list">
+            <a href="contact.html" class="p-footer__nav-link">Contact</a>
+          </li>
+          <li class="p-footer__nav-list">
+            <a href="news.html" class="p-footer__nav-link">News</a>
+          </li>
+          <li class="p-footer__nav-list">
+            <a href="about.html" class="p-footer__nav-link">About us</a>
+          </li>
+          <li class="p-footer__nav-list">
+            <a href="company.html" class="p-footer__nav-link">Company</a>
+          </li>
+        </ul>
+        <ul class="p-footer__nav-lists">
+          <li class="p-footer__nav-list2">
+            <a href="" class="p-footer__nav-link">サイト利用規約</a>
+          </li>
+          <li class="p-footer__nav-list2">
+            <a href="" class="p-footer__nav-link">プライバシーポリシー</a>
+          </li>
+          <li class="p-footer__nav-list2">
+            <a href="" class="p-footer__nav-link">サイトマップ</a>
+          </li>
+        </ul>
+      </nav><!-- /.p-footer__nav -->
+    </div><!-- /.p-footer__inner inner -->
+  </footer>
+
+  <div class="p-copy">
+    <div class="p-copy__inner inner">
+      <small class="p-copy__text">©2023 Tofree Consulting</small>
+    </div><!-- /.p-copy__inner inner -->
+  </div><!-- /.p-copy -->
+</body>
+</html>
